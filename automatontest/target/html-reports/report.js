@@ -6,146 +6,88 @@ formatter.feature({
   "id": "execute-test-cases-as-per-requirement-set",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 3,
-      "value": "#@TestCase4"
-    }
-  ],
-  "line": 5,
-  "name": "Search for Computer which does not exist",
-  "description": "",
-  "id": "execute-test-cases-as-per-requirement-set;search-for-computer-which-does-not-exist",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 4,
-      "name": "@test"
-    }
-  ]
-});
-formatter.step({
-  "line": 6,
-  "name": "I am on test main page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "I search for computer \u003cwhich does not exist\u003e",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "click on search button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "i can verify that the computer does not exist",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 11,
-  "name": "",
-  "description": "",
-  "id": "execute-test-cases-as-per-requirement-set;search-for-computer-which-does-not-exist;",
-  "rows": [
-    {
-      "cells": [
-        "which does not exist"
-      ],
-      "line": 12,
-      "id": "execute-test-cases-as-per-requirement-set;search-for-computer-which-does-not-exist;;1"
-    },
-    {
-      "cells": [
-        "\"rahul\""
-      ],
-      "line": 13,
-      "id": "execute-test-cases-as-per-requirement-set;search-for-computer-which-does-not-exist;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
 formatter.before({
-  "duration": 1051488516,
+  "duration": 1011007077,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
-  "name": "Search for Computer which does not exist",
+  "line": 4,
+  "name": "Have fun",
   "description": "",
-  "id": "execute-test-cases-as-per-requirement-set;search-for-computer-which-does-not-exist;;2",
+  "id": "execute-test-cases-as-per-requirement-set;have-fun",
   "type": "scenario",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
-      "line": 4,
+      "line": 3,
       "name": "@test"
     }
   ]
 });
 formatter.step({
-  "line": 6,
+  "line": 5,
   "name": "I am on test main page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
-  "name": "I search for computer \"rahul\"",
-  "matchedColumns": [
-    0
-  ],
+  "line": 6,
+  "name": "I click on Add a new computer button",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "click on search button",
+  "line": 7,
+  "name": "Enter valid data values for \u003cComputer name\u003e in test",
   "keyword": "And "
 });
 formatter.step({
-  "line": 9,
-  "name": "i can verify that the computer does not exist",
+  "line": 8,
+  "name": "I sleep tonight",
+  "rows": [
+    {
+      "cells": [
+        "Computer name"
+      ],
+      "line": 9
+    },
+    {
+      "cells": [
+        "\"Duplicate\""
+      ],
+      "line": 10
+    }
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDefinitions.i_am_on_test_main_page()"
 });
 formatter.result({
-  "duration": 1696481383,
+  "duration": 1571448923,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "rahul",
-      "offset": 23
-    }
-  ],
-  "location": "StepDefinitions.i_search_for_computer(String)"
+  "location": "StepDefinitions.i_click_on_Add_a_new_computer_button()"
 });
 formatter.result({
-  "duration": 70950633,
+  "duration": 185004765,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinitions.click_on_search_button()"
+  "location": "StepDefinitions.enter_valid_data_values_for_Computer_name_in_test()"
 });
 formatter.result({
-  "duration": 158755956,
+  "duration": 44306,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinitions.i_can_verify_that_the_computer_does_not_exist()"
+  "location": "StepDefinitions.i_sleep_tonight(DataTable)"
 });
 formatter.result({
-  "duration": 55407400,
+  "duration": 2230653,
   "status": "passed"
 });
 formatter.after({
-  "duration": 5135166746,
+  "duration": 5135360891,
   "status": "passed"
 });
 });

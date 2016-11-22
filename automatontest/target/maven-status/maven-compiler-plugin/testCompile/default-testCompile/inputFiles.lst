@@ -1,8 +1,8 @@
-/Users/rahul.kulkarni/Documents/workspace/backbase/automatontest/src/test/java/utility/UserUtil.java
-/Users/rahul.kulkarni/Documents/workspace/backbase/automatontest/src/test/java/pages/Page.java
-/Users/rahul.kulkarni/Documents/workspace/backbase/automatontest/src/test/java/com/backbase/automatontest/StepDefinitions.java
-/Users/rahul.kulkarni/Documents/workspace/backbase/automatontest/src/test/java/pages/AddANewComputer.java
-/Users/rahul.kulkarni/Documents/workspace/backbase/automatontest/src/test/java/pages/HomePage.java
-/Users/rahul.kulkarni/Documents/workspace/backbase/automatontest/src/test/java/utility/PageConstants.java
-/Users/rahul.kulkarni/Documents/workspace/backbase/automatontest/src/test/java/com/backbase/automatontest/RunnerTest.java
-/Users/rahul.kulkarni/Documents/workspace/backbase/automatontest/src/test/java/pages/ExistingComputerPage.java
+/Users/rahul.kulkarni/bacbasegit/automatontest/src/test/java/pages/HomePage.java
+/Users/rahul.kulkarni/bacbasegit/automatontest/src/test/java/utility/PageConstants.java
+/Users/rahul.kulkarni/bacbasegit/automatontest/src/test/java/com/backbase/automatontest/RunnerTest.java
+/Users/rahul.kulkarni/bacbasegit/automatontest/src/test/java/pages/AddANewComputer.java
+/Users/rahul.kulkarni/bacbasegit/automatontest/src/test/java/pages/ExistingComputerPage.java
+/Users/rahul.kulkarni/bacbasegit/automatontest/src/test/java/utility/UserUtil.java
+/Users/rahul.kulkarni/bacbasegit/automatontest/src/test/java/pages/Page.java
+/Users/rahul.kulkarni/bacbasegit/automatontest/src/test/java/com/backbase/automatontest/StepDefinitions.java
